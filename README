@@ -1,0 +1,22 @@
+Sample Usage:
+
+python add_ca_to_iossim.py <Path to CA Certificate to Import>
+
+==========================================
+
+Tested using:
+
+Python 2.7
+Mac OS X Snow Leopard & Lion
+Xcode 4
+
+===========================================
+
+Optional Dependencies
+
+M2Crypto Library
+
+- Install Instructions
+	1.  easy_install M2Crypto
+
+If M2Crypto library is not found the script will call the openssl executable which should be installed by default on Mac OS X.
